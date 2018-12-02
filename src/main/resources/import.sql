@@ -1,0 +1,2 @@
+INSERT INTO clientes ('id','nombre','apellido','mail','created') VALUES ('1', 'Andrés', 'Aldehuela Olmo', 'andres-aldehuela123@hotmail.com', '2018-08-28');
+INSERT INTO clientes ('id','nombre','apellido','mail','created') VALUES ('2', 'Almudena', 'Rubio Ramos', 'almudenarr@gmial.com', '2018-08-28');

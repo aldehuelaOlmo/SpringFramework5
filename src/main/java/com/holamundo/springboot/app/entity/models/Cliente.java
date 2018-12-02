@@ -28,7 +28,7 @@ public class Cliente implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long Id;
+	private Long id;
 	
 	private String nombre;
 	
@@ -37,7 +37,7 @@ public class Cliente implements Serializable {
 	private String mail;
 	
 	@Column(name ="created")
-	@Temporal(TemporalType.DATE)
+	//@Temporal(TemporalType.DATE)
 	private Date created;
 	
 	

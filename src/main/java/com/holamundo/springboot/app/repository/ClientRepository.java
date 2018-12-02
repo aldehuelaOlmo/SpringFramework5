@@ -21,7 +21,8 @@ public class ClientRepository implements IClientRepository {
 	@Override
 	public List<Cliente> FindAll() {
 		// TODO Auto-generated method stub
-		return em.createQuery("fromCliente").getResultList();
+		List<Cliente> lista = em.createQuery("from Cliente").getResultList(); 
+		return lista;
 	}
 
 }
